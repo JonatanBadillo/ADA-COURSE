@@ -16,7 +16,7 @@ int main() {
 
     cout << "Los trabajadores de oficina son" << endl;
 
-    for (map<int, double>::iterator it = oficina.begin(); it != oficina.end(); ++it) {
+    for (map<int, double>::iterator it = oficina.begin(); it != oficina.end(); ++it) { // recorremos todo el mapa de oficina
         cout << it->first << ' ' << it->second << endl;
     }
 
@@ -26,7 +26,7 @@ int main() {
 
     cout << "Los trabajadores de Empresa son" << endl;
 
-    for (map<int, double>::iterator it = empresa.begin(); it != empresa.end(); ++it) {
+    for (map<int, double>::iterator it = empresa.begin(); it != empresa.end(); ++it) { // recorremos todo el mapa de la empresa
         cout << it->first << ' ' << it->second << endl;
     }
 
