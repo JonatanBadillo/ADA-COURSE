@@ -29,11 +29,11 @@ int main() {
 
 	// BUCLE WHILE
 
-	map<string, int>::iterator it = --alumnoNota.end();
+	map<string, int>::iterator itera = --alumnoNota.end(); // iterador apunta al ultimo elemento del mapa
 
-	while (it != alumnoNota.begin()) {
-		cout << "El alumno " << it->first << " tiene la nota: " << it->second << endl;
-		--it;
+	while (itera != alumnoNota.begin()) {
+		cout << "El alumno " << itera->first << " tiene la nota: " << itera->second << endl;
+		--itera;
 	}
 
 	
