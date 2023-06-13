@@ -33,20 +33,20 @@ int main(){
     cin >> x;
     bool correct =true;
 
-    while(correct and x != '.'){
+    while(correct and x != '.'){ // it finish with a '.'
         if(x == '[' or x == '('){
-            p.push(x);
-        }else if(x == ']'){ // if start with this expressions it doesn't close anything
-            if(p.empty() or p.top() != '['){
-                correct = false;
+            p.push(x); // adding in the stack
+        }else if(x == ']'){ 
+            if(p.empty() or p.top() != '['){ // verifying the expression is closed
+                correct = false; //it's incorrect because the stack is empty or the top isn't the opening expression
             }else{
-                p.pop();
+                p.pop(); // it means is correct
             }
-        }else if(x==')'){ // if start with this expressions it doesn't close anything
-            if(p.empty() or p.top() != '('){
-                correct = false;
+        }else if(x==')'){ 
+            if(p.empty() or p.top() != '('){// verifying the expression is closed
+                correct = false;//it's incorrect because the stack is empty or the top isn't the opening expression
             }else{
-                p.pop();
+                p.pop(); // it means is correct
             }
         }
 
