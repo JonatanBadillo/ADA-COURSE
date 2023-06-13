@@ -11,6 +11,9 @@ The steps involved in the selection sort algorithm are as follows:
 3. Move the boundary of the sorted part one element ahead.
 4. Repeat steps 1-3 until the entire array is sorted.
 
+![image](https://github.com/JonatanBadillo/ADA-COURSE/assets/120596087/2f8b5673-94bf-429f-9112-67f599d95775)
+
+
 ## Pseudocode
 
 The pseudocode for the selection sort algorithm can be written as:
