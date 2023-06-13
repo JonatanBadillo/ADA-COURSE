@@ -34,11 +34,11 @@ end procedure
 
 ## Time Complexity
 
-The time complexity of the selection sort algorithm is O(n^2), where n is the number of elements in the array. This is because, in the worst case, the algorithm requires n-1 comparisons for each of the n elements.
+The time complexity of the selection sort algorithm is $$O(n^2)$$ where n is the number of elements in the array. This is because, in the worst case, the algorithm requires n-1 comparisons for each of the n elements.
 
 ## Space Complexity
 
-The space complexity of the selection sort algorithm is O(1) since it only requires a constant amount of additional space for storing indices and temporary variables.
+The space complexity of the selection sort algorithm is $$O(1)$$ since it only requires a constant amount of additional space for storing indices and temporary variables.
 
 
 ## Usage
