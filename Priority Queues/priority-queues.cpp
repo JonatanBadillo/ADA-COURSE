@@ -14,6 +14,16 @@ int main(){
     cout << "MAX HEAP" << endl;
     cout << "The top is " << Q.top() << endl;
 
+    cout << "There are " << Q.size() << " elements in the queue" << endl;
+
+    cout << "The elements are: " << endl;
+
+    while (not Q.empty()){
+        cout << Q.top() << " ";
+        Q.pop();
+    }
+
+    cout << endl;
 
     priority_queue<int, vector<int> ,greater<int> > Q2; //MIN HEAP
 
