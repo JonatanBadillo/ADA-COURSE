@@ -16,8 +16,8 @@ vector<pair<int, int> > directions;
 void initializeDirections() {
     directions.push_back(make_pair(0, 1));
     directions.push_back(make_pair(0, -1));
-    directions.push_back(make_pair(-1, 0));
     directions.push_back(make_pair(1, 0));
+    directions.push_back(make_pair(-1, 0));
 }
 
 // Return TRUE if it is on the limit of the matrix
